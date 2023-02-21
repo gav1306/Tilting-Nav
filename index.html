@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tilting Navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle-container">
+        <!-- Contains another div having 2 buttons. Each button has an icon -->
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content">
+        <!-- Contains 2 sections. Section one has a heading, small and paragraph element -->
+        <!-- Section two has a smaller heading, related image and a paragraph -->
+        <section>
+          <h1>Tilting Navigation Assignment</h1>
+          <small>My First FunctionUp Assignment</small>
+          <p>
+            On the Day One of Nobelium Cohort we were given two assignments one
+            of which is the html part of tilting navigation page. They're
+            completely based on the sessions done today.
+          </p>
+        </section>
+        <section>
+          <h3>Earth's Moon is the only place beyond Earth where humans have set foot.</h3>
+          <img
+            src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=502&q=80"
+            alt="moon"
+          />
+          <p>
+            The brightest and largest object in our night sky, the Moon makes Earth a more livable planet by moderating our home planet's wobble on its axis, leading to a relatively stable climate. It also causes tides, creating a rhythm that has guided humans for thousands of years. The Moon was likely formed after a Mars-sized body collided with Earth.Earth's Moon is the fifth largest of the 200+ moons orbiting planets in our solar system.
+
+          </p>
+          <p>
+            Earth's only natural satellite is simply called "the Moon" because people didn't know other moons existed until Galileo Galilei discovered four moons orbiting Jupiter in 1610.
+          </p>
+            <p>
+              NASA currently has three robotic spacecraft exploring the Moon-Lunar Reconnaissance Orbiter and the twin ARTEMIS spacecraft (not to be confused with NASA's new Artemis program to send astronauts back to the Moon).
+            
+            </p>
+            
+            
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <nav>
+      <!-- Contains 3 unordered list items. Each item has an icon and a relevant hyperlinked text-->
+      <ul>
+        <li><i class="fas fa-home"></i><a href="#">Home</a></li>
+        <li><i class="fas fa-user-alt"></i><a href="#">About</a></li>
+        <li><i class="fas fa-envelope"></i><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
